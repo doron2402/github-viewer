@@ -20,7 +20,7 @@ require.config({
     "backbone": "../vendor/bower/backbone/backbone",
     "bootstrap": "../vendor/bower/bootstrap/dist/js/bootstrap",
     "layoutmanager": "../vendor/bower/layoutmanager/backbone.layoutmanager",
-    "collectionCache": "../vendor/backbone.collectioncache"
+    // "collectionCache": "../vendor/backbone.collectioncache"
   },
 
   shim: {
@@ -35,7 +35,7 @@ require.config({
     },
 
     // Backbone.CollectionCache depends on Backbone.
-    "collectionCache": ["backbone"],
+    // "collectionCache": ["backbone"],
 
     // Twitter Bootstrap depends on jQuery.
     "bootstrap": ["jquery"]

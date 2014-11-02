@@ -6,7 +6,7 @@ define(function(require, exports, module) {
   var Layout = Backbone.Layout.extend({
     template: require("ldsh!./template"),
 
-    tagName: "li",
+    tagName: 'div class="col-xs-1"',
 
     serialize: function() {
       return { model: this.model };

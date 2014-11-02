@@ -7,7 +7,7 @@ define(function(require, exports, module) {
   var User = require("components/user/index");
   var Repo = require("components/repo/index");
 
-  require("collectionCache");
+  // require("collectionCache");
   require("bootstrap");
 
   // Defining the application router, you can attach sub routers here.
@@ -32,7 +32,7 @@ define(function(require, exports, module) {
           ".commits": new Commit.Views.List({ collection: this.commits })
         }
       });
-      
+
       // Render to the page.
       new Layout().render();
     },
